@@ -13,7 +13,6 @@ function startSpin() {
   const btn = document.getElementById("btnPutar");
   btn.disabled = true;
 
-  // Tentukan hasil di awal biar fair
   const win = Math.random() < 0.2; // 20% peluang menang
   const finalResults = win
     ? [WIN_SYMBOL, WIN_SYMBOL, WIN_SYMBOL]
@@ -23,7 +22,6 @@ function startSpin() {
         SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)],
       ];
 
-  // Efek visual ngacak teks (sebagai pengganti animasi CSS)
   const intervals = [0, 1, 2].map((i) => {
     return setInterval(() => {
       document.getElementById(`sym${i}`).innerText =
@@ -31,13 +29,11 @@ function startSpin() {
     }, 100);
   });
 
-  // Berhenti satu per satu (staggered stop)
   [1000, 1800, 2500].forEach((delay, i) => {
     setTimeout(() => {
-      clearInterval(intervals[i]); // Stop ngacak
-      document.getElementById(`sym${i}`).innerText = finalResults[i]; // Pasang hasil asli
+      clearInterval(intervals[i]);
+      document.getElementById(`sym${i}`).innerText = finalResults[i];
 
-      // Kalau sudah reel terakhir berhenti
       if (i === 2) {
         setTimeout(() => {
           isSpinning = false;
