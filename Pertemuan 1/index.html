@@ -13,12 +13,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Stars -->
+    <!-- Background bintang -->
     <div class="stars" id="stars"></div>
 
     <div class="page-wrapper py-4 py-md-5">
       <div class="container">
-        <!-- Title -->
         <div class="text-center mb-4">
           <div class="mb-2">
             <span class="star-icon">✨</span>
@@ -40,12 +39,8 @@
           </p>
         </div>
 
-        <!-- Slot Card -->
         <div class="slot-card mx-auto p-3 p-md-4">
-          <!-- Header -->
           <div class="slot-header text-center mb-3">SLOT RAMADAN</div>
-
-          <!-- Reels -->
           <div
             class="reels-frame d-flex justify-content-center mb-3"
             id="reelsFrame"
@@ -63,13 +58,9 @@
               <div class="reel-label">Hadiah</div>
             </div>
           </div>
-
-          <!-- Badge -->
           <div class="text-center mb-3">
             <span class="badge-putaran" id="badgePutaran">Putaran ke-0</span>
           </div>
-
-          <!-- PUTAR button -->
           <div class="text-center mb-3">
             <button
               class="btn btn-putar px-5"
@@ -80,16 +71,14 @@
             </button>
           </div>
 
-          <!-- Hint -->
           <div class="hint-bar text-center">
             3x 🫘 = <strong>THR Rp 50.000!</strong>
           </div>
         </div>
-        <!-- /card -->
       </div>
     </div>
 
-    <!-- ══════════════════════════════════════WIN MODAL══════════════════════════════════════ -->
+    <!-- Jackpot -->
     <div
       class="modal fade modal-win"
       id="modalWin"
@@ -101,7 +90,6 @@
           class="modal-content text-center position-relative overflow-hidden"
           id="winModalContent"
         >
-          <!-- confetti container -->
           <div
             id="confettiContainer"
             class="position-absolute w-100 h-100"
@@ -150,7 +138,8 @@
         </div>
       </div>
     </div>
-    <!-- ══════════════════════════════════════LOSE MODAL══════════════════════════════════════ -->
+
+    <!-- Gagal -->
     <div
       class="modal fade modal-lose"
       id="modalLose"

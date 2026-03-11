@@ -1,4 +1,4 @@
-/* ── Stars ──────────────────────────── */
+/* Efek bintang di background */ 
 (function () {
   const c = document.getElementById("stars");
   for (let i = 0; i < 80; i++) {
@@ -15,7 +15,7 @@
   }
 })();
 
-/* ── Slot logic ──────────────────────────── */
+/* Logika slot */
 const SYMBOLS = [
   { em: "🎁", label: "Hadiah" },
   { em: "🌙", label: "Bulan" },
@@ -24,12 +24,12 @@ const SYMBOLS = [
   { em: "🪔", label: "Lentera" },
   { em: "🌴", label: "Pohon" },
 ];
-const KETUPAT = { em: "🫘", label: "Ketupat" }; // winning symbol
+const KETUPAT = { em: "🫘", label: "Ketupat" };
 
 let spinCount = 0;
 let spinning = false;
 
-// Control win probability: ~1 in 5 chance
+// Peluang menang (20%)
 function shouldWin() {
   return Math.random() < 0.2;
 }
@@ -43,22 +43,18 @@ function startSpin() {
   const btn = document.getElementById("btnPutar");
   btn.disabled = true;
 
-  // Clear winner classes
   [0, 1, 2].forEach((i) => {
     document.getElementById(`reel${i}`).classList.remove("winner");
     document.getElementById(`reel${i}`).classList.add("spinning");
   });
 
   const win = shouldWin();
-
-  // Stagger stop per reel
   const delays = [900, 1400, 1900];
   const results = [];
 
   if (win) {
     results[0] = results[1] = results[2] = KETUPAT;
   } else {
-    // Random non-winning combo (ensure not all ketupat)
     do {
       results[0] = SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)];
       results[1] = SYMBOLS[Math.floor(Math.random() * SYMBOLS.length)];
@@ -94,13 +90,12 @@ function startSpin() {
 }
 
 function resetGame() {
-  // brief reset visual
   [0, 1, 2].forEach((i) =>
     document.getElementById(`reel${i}`).classList.remove("winner"),
   );
 }
 
-/* ── Confetti ──────────────────────────── */
+/* Efek Confetti */
 function launchConfetti() {
   const container = document.getElementById("confettiContainer");
   container.innerHTML = "";
