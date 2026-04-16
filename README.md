@@ -13,3 +13,9 @@ Website ini memiliki fitur Full CRUD (Create, Read, Update, Delete) yang terinte
 
 **Screenhot Hasil**
 ![WhatsApp Image 2026-03-27 at 15 36 54 (1)](https://github.com/user-attachments/assets/4ccbb630-5ac2-4f7a-9d2f-8e17ef280e7d)
+
+##  Praktikum 03
+Project ini adalah aplikasi berbasis **PHP Native** sederhana untuk mengelola dan menampilkan data nilai mahasiswa. Program ini menerapkan konsep dasar pemrograman seperti fungsi, struktur kontrol, dan manipulasi array.
+
+**Screenhot Hasil**
+![WhatsApp Image 2026-04-02 at 21 12 21](https://github.com/user-attachments/assets/82fef457-634b-441c-9a97-fcab2b8bbc08)
