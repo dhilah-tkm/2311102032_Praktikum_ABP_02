@@ -29,12 +29,19 @@ Project ini adalah aplikasi berbasis **PHP Native** sederhana untuk mengelola da
 Project ini adalah aplikasi manajemen inventori sederhana berbasis web yang dibangun menggunakan **Laravel 11**. Aplikasi ini dirancang untuk membantu Pak Cokomi mengelola stok barang di Toko Mas Wowo dengan sistem keamanan yang terintegrasi.
 
 **Screenshot Hasil**
+Login
 <img width="1600" height="850" alt="WhatsApp Image 2026-04-30 at 23 36 01" src="https://github.com/user-attachments/assets/4b3f0825-75e1-4b10-bc70-7ccbca07734a" />
-<img width="1600" height="850" alt="WhatsApp Image 2026-04-30 at 23 48 38" src="https://github.com/user-attachments/assets/16681a62-4d2b-4f2e-93de-9e7254b154d4" />
+Dashboard
 <img width="1600" height="854" alt="WhatsApp Image 2026-04-30 at 23 36 13" src="https://github.com/user-attachments/assets/5868bb9e-6359-4b56-bf34-1893c5f2a823" />
+Tambah Produk
+<img width="1600" height="850" alt="WhatsApp Image 2026-04-30 at 23 48 38" src="https://github.com/user-attachments/assets/16681a62-4d2b-4f2e-93de-9e7254b154d4" />
+Tampilan Dashboard setelah ditambahkan produk
 <img width="1600" height="850" alt="WhatsApp Image 2026-04-30 at 23 37 02" src="https://github.com/user-attachments/assets/2833812f-e22a-4310-92e1-2fdd086d1efb" />
+Edit Produk
 <img width="1600" height="844" alt="WhatsApp Image 2026-04-30 at 23 38 10" src="https://github.com/user-attachments/assets/2ab4dc72-1f08-4f2a-90ee-3719eb82dd93" />
+Tampilan Dashboard setelah update produk
 <img width="1600" height="844" alt="WhatsApp Image 2026-04-30 at 23 38 37" src="https://github.com/user-attachments/assets/732f0256-d184-46ef-9814-393a0d8e6a76" />
+Hapus Produk
 <img width="1600" height="847" alt="WhatsApp Image 2026-04-30 at 23 38 39" src="https://github.com/user-attachments/assets/d7ab2c19-5b55-4046-a4d8-2015f5834410" />
 
 ## Praktikum 06: Demo Android Studio
