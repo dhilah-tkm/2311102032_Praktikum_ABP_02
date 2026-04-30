@@ -28,6 +28,33 @@ Project ini adalah aplikasi berbasis **PHP Native** sederhana untuk mengelola da
 ## Praktikum 05: Sistem Inventori Toko Mas Wowo & Pak Cokomi
 Project ini adalah aplikasi manajemen inventori sederhana berbasis web yang dibangun menggunakan **Laravel 11**. Aplikasi ini dirancang untuk membantu Pak Cokomi mengelola stok barang di Toko Mas Wowo dengan sistem keamanan yang terintegrasi.
 
+###Fitur & Dokumentasi Sistem
+
+### 1. Fitur Utama
+*   **Autentikasi (Laravel Breeze)**: Mengamankan akses sehingga hanya Pak Cokomi yang bisa mengelola data setelah login.
+*   **Manajemen CRUD**:
+    *   **Create**: Form tambah barang dengan validasi input.
+    *   **Read**: Data Table untuk melihat daftar stok secara real-time.
+    *   **Update**: Fitur edit informasi barang.
+    *   **Delete**: Penghapusan data menggunakan **Modal Konfirmasi** untuk mencegah kesalahan klik.
+*   **Database Seeding**: Mengisi data otomatis menggunakan `ProductFactory`.
+
+### 2. Dokumentasi Teknis (Arsitektur)
+*   **Model**: `app/Models/Product.php` (Mengatur struktur data produk).
+*   **Controller**: `app/Http/Controllers/ProductController.php` (Mengatur logika bisnis dan alur data).
+*   **View**: `resources/views/products/` (Berisi template Blade untuk UI).
+*   **Database**: Menggunakan **SQLite** yang efisien untuk skala praktikum.
+*   **Frontend**: Dikompilasi menggunakan **Vite** dengan framework **Tailwind CSS**.
+
+## ⚙️ Cara Instalasi & Menjalankan
+1. **Clone/Download** project ini.
+2. Jalankan perintah berikut di terminal:
+   ```bash
+   composer install
+   npm install
+   php artisan migrate --seed
+   npm run build
+   
 **Screenshot Hasil**
 
 Login
