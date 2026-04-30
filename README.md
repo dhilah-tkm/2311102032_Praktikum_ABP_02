@@ -29,6 +29,7 @@ Project ini adalah aplikasi berbasis **PHP Native** sederhana untuk mengelola da
 Project ini adalah aplikasi manajemen inventori sederhana berbasis web yang dibangun menggunakan **Laravel 11**. Aplikasi ini dirancang untuk membantu Pak Cokomi mengelola stok barang di Toko Mas Wowo dengan sistem keamanan yang terintegrasi.
 
 **Screenshot Hasil**
+
 Login
 <img width="1600" height="850" alt="WhatsApp Image 2026-04-30 at 23 36 01" src="https://github.com/user-attachments/assets/4b3f0825-75e1-4b10-bc70-7ccbca07734a" />
 Dashboard
