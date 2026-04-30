@@ -78,7 +78,7 @@ Tampilan Dashboard setelah update produk
 Hapus Produk
 <img width="1600" height="847" alt="WhatsApp Image 2026-04-30 at 23 38 39" src="https://github.com/user-attachments/assets/d7ab2c19-5b55-4046-a4d8-2015f5834410" />
 
-## Praktikum 06: Demo Android Studio
+## Praktikum 06: Demo Aplikasi di Android Studio
 Project ini adalah aplikasi default yang dibangun menggunakan Flutter
 
 **Screenshot Hasil**
