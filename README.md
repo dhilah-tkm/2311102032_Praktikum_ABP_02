@@ -83,3 +83,24 @@ Project ini adalah aplikasi default yang dibangun menggunakan Flutter
 
 **Screenshot Hasil**
 <img width="1600" height="899" alt="WhatsApp Image 2026-04-30 at 21 59 02" src="https://github.com/user-attachments/assets/0ae540c5-bd73-4a08-a67d-175c4ea11579" />
+
+## Praktikum 07: Flutter Basic UI Widgets
+Project ini adalah aplikasi berbasis Flutter sederhana untuk mendemonstrasikan penggunaan berbagai widget UI dasar dalam satu tampilan.
+
+Penjelasan Singkat Widget:
+1. Container: Digunakan sebagai widget pembungkus dasar yang memungkinkan kita mengatur warna latar belakang, margin, padding, serta dekorasi seperti border radius.
+
+2. Stack: Widget ini berfungsi untuk menumpuk elemen secara berlapis (z-axis), sehingga kita bisa meletakkan teks atau gambar di atas widget lainnya.
+   
+3. GridView: Digunakan untuk menampilkan item dalam bentuk grid atau baris-kolom. Pada project ini, GridView menampilkan 6 item dengan pembagian 3 kolom.
+   
+4. ListView: Menampilkan daftar item secara linear (atas ke bawah). Digunakan untuk list statis sederhana seperti daftar A, B, dan C.
+
+5. ListView.builder: Versi ListView yang lebih efisien karena merender item hanya saat terlihat di layar. Widget ini otomatis mengambil data dari sebuah array.
+   
+6. ListView.separated: Mirip dengan builder, namun memiliki parameter tambahan separatorBuilder untuk menyisipkan garis pembatas (divider) di antara setiap item secara otomatis.
+
+**Screenshot Hasil**
+<img width="433" height="871" alt="WhatsApp Image 2026-05-15 at 14 24 24" src="https://github.com/user-attachments/assets/aaf4bf11-d1fe-44e0-9079-1b38f593a0a9" />
+
+<img width="448" height="871" alt="WhatsApp Image 2026-05-15 at 14 24 45" src="https://github.com/user-attachments/assets/3882a22c-b133-47df-8601-db9505bc0994" />
