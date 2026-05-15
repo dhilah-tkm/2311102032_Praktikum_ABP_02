@@ -101,6 +101,7 @@ Penjelasan Singkat Widget:
 6. ListView.separated: Mirip dengan builder, namun memiliki parameter tambahan separatorBuilder untuk menyisipkan garis pembatas (divider) di antara setiap item secara otomatis.
 
 **Screenshot Hasil**
+
 <img width="433" height="871" alt="WhatsApp Image 2026-05-15 at 14 24 24" src="https://github.com/user-attachments/assets/aaf4bf11-d1fe-44e0-9079-1b38f593a0a9" />
 
 <img width="448" height="871" alt="WhatsApp Image 2026-05-15 at 14 24 45" src="https://github.com/user-attachments/assets/3882a22c-b133-47df-8601-db9505bc0994" />
