@@ -130,13 +130,13 @@ Penjelasan Singkat Widget:
 
 **Screenshot Hasil**
 Home Screen
-<img width="1440" height="3040" alt="Screenshot_20260530_000722" src="https://github.com/user-attachments/assets/f591a20d-00ee-42de-b151-35d40f9322aa" />
+<img width="433" height="871" alt="Screenshot_20260530_000722" src="https://github.com/user-attachments/assets/f591a20d-00ee-42de-b151-35d40f9322aa" />
 Buka Kamera
-<img width="1440" height="3040" alt="Screenshot_20260529_232622" src="https://github.com/user-attachments/assets/d512f15f-0405-4571-862a-59821a44e810" />
+<img width="433" height="871" alt="Screenshot_20260529_232622" src="https://github.com/user-attachments/assets/d512f15f-0405-4571-862a-59821a44e810" />
 Ambil Foto dari Galeri
-<img width="1440" height="3040" alt="Screenshot_20260529_232707" src="https://github.com/user-attachments/assets/41efe5c4-7e96-49e2-b67e-44ffd6eb972b" />
+<img width="433" height="871" alt="Screenshot_20260529_232707" src="https://github.com/user-attachments/assets/41efe5c4-7e96-49e2-b67e-44ffd6eb972b" />
 Notifikasi Berhasil Memuat Gambar
-<img width="1440" height="3040" alt="Screenshot_20260529_232847" src="https://github.com/user-attachments/assets/48a31813-80d2-4239-9fb9-a2f6222b5cc8" />
+<img width="433" height="871" alt="Screenshot_20260529_232847" src="https://github.com/user-attachments/assets/48a31813-80d2-4239-9fb9-a2f6222b5cc8" />
 
 
 
