@@ -129,12 +129,16 @@ Penjelasan Singkat Widget:
 9. ElevatedButton.icon & OutlinedButton.icon: Komponen tombol aksi modern dengan penanda ikon grafis yang memicu penanganan interaksi metode penangkapan media perangkat keras.
 
 **Screenshot Hasil**
+
 Home Screen
 <img width="433" height="871" alt="Screenshot_20260530_000722" src="https://github.com/user-attachments/assets/f591a20d-00ee-42de-b151-35d40f9322aa" />
+
 Buka Kamera
 <img width="433" height="871" alt="Screenshot_20260529_232622" src="https://github.com/user-attachments/assets/d512f15f-0405-4571-862a-59821a44e810" />
+
 Ambil Foto dari Galeri
 <img width="433" height="871" alt="Screenshot_20260529_232707" src="https://github.com/user-attachments/assets/41efe5c4-7e96-49e2-b67e-44ffd6eb972b" />
+
 Notifikasi Berhasil Memuat Gambar
 <img width="433" height="871" alt="Screenshot_20260529_232847" src="https://github.com/user-attachments/assets/48a31813-80d2-4239-9fb9-a2f6222b5cc8" />
 
