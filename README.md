@@ -105,3 +105,44 @@ Penjelasan Singkat Widget:
 <img width="433" height="871" alt="WhatsApp Image 2026-05-15 at 14 24 24" src="https://github.com/user-attachments/assets/aaf4bf11-d1fe-44e0-9079-1b38f593a0a9" />
 
 <img width="448" height="871" alt="WhatsApp Image 2026-05-15 at 14 24 45" src="https://github.com/user-attachments/assets/3882a22c-b133-47df-8601-db9505bc0994" />
+
+## Praktikum 08: Notifikasi & Hardware API
+Project ini adalah aplikasi Flutter sederhana yang mengintegrasikan fitur pengambilan foto langsung melalui kamera perangkat (**Camera API**), pemilihan berkas gambar dari galeri penyimpanan (**image_picker**), serta sistem pengingat otomatis menggunakan notifikasi lokal (**flutter_local_notifications**). Aplikasi ini dirancang menggunakan desain antarmuka Material Design 3 yang responsif dan interaktif.
+
+Penjelasan Singkat Widget:
+1. HomeScreen (StatefulWidget): Menyimpan status (state) perubahan data berkas gambar secara dinamis dan menangani daur hidup (lifecycle) inisialisasi manajemen notifikasi melalui initState.
+
+2. Scaffold: Menyediakan kerangka struktur visual standar Android/iOS yang mewadahi bar navigasi atas (AppBar) dan area konten utama (body).
+
+3. AppBar: Menampilkan komponen tajuk/identitas di bagian paling atas aplikasi dengan penataan teks terpusat (center title).
+
+4. Column: Mengatur tata letak tumpukan komponen (Display Gambar, Tombol Kamera, dan Tombol Galeri) secara linier dari atas ke bawah (vertikal).
+
+5. Expanded & Center: Kombinasi untuk menginstruksikan komponen penampil gambar agar mengisi sisa ruang layar secara fleksibel dan menjaganya tetap seimbang di titik tengah.
+
+6. Container: Digunakan sebagai placeholder box bersyarat (conditional rendering) yang memberikan petunjuk visual (ikon & teks abu-abu) sebelum pengguna memasukkan gambar.
+
+7. ClipRRect: Berfungsi memotong (clipping) sudut tajam pada widget Image.file sehingga gambar memiliki sudut melengkung halus (rounded corner) senada dengan desain penampung.
+
+8. Image.file: Berperan memuat dan merender secara instan data biner gambar langsung dari alamat path penyimpanan lokal perangkat.
+
+9. ElevatedButton.icon & OutlinedButton.icon: Komponen tombol aksi modern dengan penanda ikon grafis yang memicu penanganan interaksi metode penangkapan media perangkat keras.
+
+**Screenshot Hasil**
+
+Home Screen
+
+<img width="540" height="1140" alt="Screenshot_20260530_000722" src="https://github.com/user-attachments/assets/9441ef25-5dee-4b51-a861-4d75c1f98ac6" />
+
+Buka Kamera
+
+<img width="540" height="1140" alt="Screenshot_20260529_232622" src="https://github.com/user-attachments/assets/d512f15f-0405-4571-862a-59821a44e810" />
+
+Ambil Foto dari Galeri
+
+<img width="540" height="1140" alt="Screenshot_20260529_232707" src="https://github.com/user-attachments/assets/41efe5c4-7e96-49e2-b67e-44ffd6eb972b" />
+
+Notifikasi Berhasil Memuat Gambar
+
+<img width="540" height="1140" alt="Screenshot_20260529_232847" src="https://github.com/user-attachments/assets/48a31813-80d2-4239-9fb9-a2f6222b5cc8" />
+
