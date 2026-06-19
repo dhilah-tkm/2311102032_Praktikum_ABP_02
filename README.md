@@ -146,3 +146,61 @@ Notifikasi Berhasil Memuat Gambar
 
 <img width="540" height="1140" alt="Screenshot_20260529_232847" src="https://github.com/user-attachments/assets/48a31813-80d2-4239-9fb9-a2f6222b5cc8" />
 
+## Praktikum 09: Flutter State Management (Provider) & Firebase Cloud Messaging (FCM)
+
+Project ini adalah aplikasi berbasis Flutter sederhana untuk mendemonstrasikan penggunaan **Provider** sebagai *state management* To-Do List secara *real-time* dan integrasi **Firebase Cloud Messaging (FCM)** untuk menerima notifikasi.
+
+### Penjelasan Singkat Komponen & Widget:
+
+1. **TodoProvider**: Mengelola *state* daftar tugas (tambah dan hapus semua) serta memicu pembaruan UI menggunakan `notifyListeners()`.
+2. **FcmService**: Menangani inisialisasi Firebase Messaging, meminta izin notifikasi perangkat, dan menerima *payload* pesan masuk.
+3. **ChangeNotifierProvider**: Diletakkan di `main.dart` agar `TodoProvider` dapat diakses secara global oleh widget di bawahnya.
+4. **Provider.of<TodoProvider>**: Berfungsi mendengarkan perubahan data dari Provider untuk memperbarui tampilan secara otomatis.
+5. **ListView.builder**: Merender seluruh daftar tugas secara dinamis dan efisien dari *array* data Provider.
+6. **TextField**: Widget input untuk menangkap teks tugas baru dari pengguna.
+
+**Screenshot Hasil**
+
+Tampilan Daftar Tugas
+
+<img width="757" height="1600" alt="WhatsApp Image 2026-06-12 at 20 44 29" src="https://github.com/user-attachments/assets/bd80711f-346d-4e44-9bcc-aec361487ac5" />
+
+Proses Penambahan Tugas
+
+<img width="757" height="1600" alt="WhatsApp Image 2026-06-12 at 20 44 29 (1)" src="https://github.com/user-attachments/assets/84f94daa-9c33-4ffc-9298-e896cc896008" />
+
+<img width="757" height="1600" alt="WhatsApp Image 2026-06-12 at 20 44 29 (3)" src="https://github.com/user-attachments/assets/2c859138-a1f3-4228-b521-ffd54bca8700" />
+
+Notifikasi Berhasil Diterima
+
+<img width="1212" height="2560" alt="WhatsApp Image 2026-06-12 at 20 44 29 (2)" src="https://github.com/user-attachments/assets/20d0dff1-ea8d-4d73-b28c-47346a801afa" />
+
+## Praktikum 11: Flutter State Management (Cubit/BLoC)
+Project ini adalah aplikasi berbasis Flutter sederhana untuk mendemonstrasikan penggunaan arsitektur Cubit sebagai *state management* dalam mengelola keranjang belanja secara *real-time*.
+
+Penjelasan Singkat Komponen & Widget:
+1. CartState: Tempat menyimpan data daftar barang belanjaan. Di dalamnya terdapat fungsi otomatis untuk menghitung jumlah total barang secara *real-time*.
+
+2. CartCubit: Pengatur logika bisnis untuk menambah dan menghapus barang. Setiap ada perubahan, Cubit membuat salinan data baru lalu menyiarkannya ke UI menggunakan perintah `emit()`.
+   
+3. BlocProvider: Diletakkan di pusat aplikasi (`main.dart`) agar data keranjang belanja bisa diakses secara global dan sinkron antara halaman produk maupun halaman keranjang.
+   
+4. BlocBuilder: Pembungkus elemen UI yang berfungsi mendengarkan siaran dari Cubit dan otomatis memperbarui (*rebuild*) tampilan layar tanpa perlu *reload* manual.
+
+5. ListView.builder: Digunakan di halaman produk dan halaman keranjang untuk menampilkan daftar item secara efisien dengan merender data langsung dari *array* atau *state* Cubit.
+   
+6. Stack & Positioned: Digunakan pada ikon keranjang di AppBar untuk menumpuk komponen angka (*badge*) merah di atas ikon keranjang secara berlapis (z-axis) agar terlihat dinamis.
+
+**Screenshot Hasil**
+
+Tampilan Daftar Produk
+
+<img width="1212" height="2560" alt="WhatsApp Image 2026-06-19 at 09 39 46" src="https://github.com/user-attachments/assets/15dbbdff-e4b0-49e6-aafb-44dc47b4deee" />
+
+Proses Menambah ke Keranjang
+
+<img width="1212" height="2560" alt="WhatsApp Image 2026-06-19 at 09 46 17" src="https://github.com/user-attachments/assets/c7e58781-e306-46e5-ac9f-79ffe06d124f" />
+
+Halaman Keranjang Belanja
+
+<img width="1212" height="2560" alt="WhatsApp Image 2026-06-19 at 09 47 05" src="https://github.com/user-attachments/assets/1dd713d3-57a0-4130-a4b8-d14fda3e4958" />
